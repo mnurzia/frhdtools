@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+frhdtools/Encode.py
+frhdtools/Track.py
+frhdtools/__init__.py
+frhdtools.egg-info/PKG-INFO
+frhdtools.egg-info/SOURCES.txt
+frhdtools.egg-info/dependency_links.txt
+frhdtools.egg-info/top_level.txt
