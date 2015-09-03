@@ -15,8 +15,31 @@ Note: replace `/Downloads` with wherever you put it.
 
 ## Usage
 ### Example 1: Straight Line
-Obviously, when you start, you'll want to import frhdtools:
+When you start, you'll want to import frhdtools.Track, the main track manipulation section:
 
 ```python
-import frhdtools
+from frhdtools import Track
 ```
+
+Next, you should create a Track class. This will hold all of your track's objects and code.
+
+```python
+my_track = Track.Track()
+```
+
+Now that you've done that, you can add a line:
+
+```python
+my_track.insLine(-40,50,100,50,'p')
+```
+
+This line goes from (-40,50) to (100,50). What is the 'p', you ask? That corresponds to the type of line. In this case, it means a physics line. More on types of lines later.
+
+Now, lets generate our code:
+
+```python
+print(my_track.genCode())
+```
+
+This will generate the code stored in ```my_track``` and print it to stdin.
+In my case, the code was this:
