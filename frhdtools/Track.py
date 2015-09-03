@@ -40,7 +40,6 @@ class Track():
 
     def genCode(self):
         self.trackdatalist = [[],[],[]] #holds raw data to be joined into frhd text
-        #print self.tracklist
         
         for pline in self.tracklist[0]: #physics
             self.trackdatalist[0] += En.encline(pline[0],pline[1],pline[2],pline[3])
@@ -53,8 +52,6 @@ class Track():
                 self.trackdatalist[2] += En.encpup(pup[1],pup[2],pup[0])
             if len(pup) == 4: #if powerup does have rotation attribute
                 self.trackdatalist[2] += En.encpupr(pup[1],pup[2],pup[3],pup[0])
-                
-        #print self.trackdatalist
         
         self.finalData = '' #this will be put into frhd
         
@@ -64,11 +61,4 @@ class Track():
             self.finalData += '#'#add object end marker
 
         return self.finalData
-    
-#test stuff, use if you want
-##track1 = Track()
-##track1.insLine(90,90,800,10,'p')
-##track1.insBomb(100,100)
-##track1.insGravity(7,90,40)
-##print track1.genCode()
 

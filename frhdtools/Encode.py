@@ -32,8 +32,3 @@ def b32e(numbera):
     if numbera < 0:
         base32 = '-'+base32
     return base32 or alphabet[0]
-
-#test stuff, use if you want
-##print encline(90,12,23473,445)
-##print encpup(5,6,'C')
-##print encpupr(345,23475,40,'G')
