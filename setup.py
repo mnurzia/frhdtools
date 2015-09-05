@@ -6,7 +6,7 @@
 from setuptools import setup, find_packages
 
 setup(name="frhdtools",
-    version="1.0.0",
+    version="0.0.1",
     description="Library to work with Free Rider HD Tracks",
     long_description="Frhdtools is a library for working with Free Rider HD Tracks.",
     url="https://github.com/maxmillion18/frhdtools",
