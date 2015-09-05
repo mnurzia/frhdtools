@@ -15,16 +15,16 @@ Note: replace `/Downloads` with wherever you put it.
 
 ## Usage
 ### Example 1: Straight Line
-When you start, you'll want to import frhdtools.Track, the main track manipulation section:
+When you start, you'll want to import frhdtools:
 
 ```python
-from frhdtools import Track
+import frhdtools
 ```
 
 Next, you should create a Track class. This will hold all of your track's objects and code.
 
 ```python
-my_track = Track.Track()
+my_track = frhdtools.Track.Track()
 ```
 
 Now that you've done that, you can add a line:
@@ -41,5 +41,13 @@ Now, lets generate our code:
 print(my_track.genCode())
 ```
 
-This will generate the code stored in ```my_track``` and print it to stdin.
+This will generate the code stored in ```my_track``` and print it to stdout.
 In my case, the code was this:
+
+```python
+-18 1i 34 1i,###
+```
+
+Don't worry what the code means just yet. First let's plug it into FRHD to see if it works.
+
+In the Track Editor, click "Import" at the top of the editor. Then paste in your generated code.
