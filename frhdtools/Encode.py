@@ -4,7 +4,7 @@
 #http://www.freeriderhd.com/u/MaxwellNurzia
 
 def encline(x1,y1,x2,y2):   #encode line.
-        return [['%s %s %s %s,' % (b32e(x1),b32e(y1),b32e(x2),b32e(y2))]]
+    return [['%s %s %s %s,' % (b32e(x1),b32e(y1),b32e(x2),b32e(y2))]]
 
 def encpup(x,y,pupcode):
     #encode powerup without rotation

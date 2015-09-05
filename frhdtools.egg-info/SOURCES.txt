@@ -1,5 +1,6 @@
 setup.cfg
 setup.py
+frhdtools/Decode.py
 frhdtools/Encode.py
 frhdtools/Track.py
 frhdtools/__init__.py

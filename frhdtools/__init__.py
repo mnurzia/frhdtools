@@ -1,1 +1,1 @@
-from frhdtools import Track, Encode
+from frhdtools import Track, Encode, Decode
