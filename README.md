@@ -1,7 +1,7 @@
 # frhdtools
 A Python library for working with Free Rider HD Tracks.
 
-![pip | stable](https://img.shields.io/badge/pip-stable-green.png) ![type | sdist](https://img.shields.io/badge/type-sdist-blue.png)
+![pip | stable](https://img.shields.io/badge/pip-stable-green.png) ![type | sdist](https://img.shields.io/badge/type-sdist-blue.png) ![version | 0.0.1](https://img.shields.io/badge/version-0.0.1-orange.png) ![license | MIT](https://img.shields.io/badge/license-MIT-blue.png)
 
 ## Introduction
 Free Rider HD is an online HTML5 + JS game where users can draw bike tracks, upload them to a community of players, and ride them. ([Go try it out!](https://www.freeriderhd.com "Free Rider HD"))
