@@ -7,6 +7,15 @@ Free Rider HD is an online HTML5 + JS game where users can draw bike tracks, upl
 When drawing a track, you can import track code from a file or from your clipboard. This library (as of now) allows you to generate that code.
 
 ## Install
+### Method 1: pip
+
+Open up a terminal and type:
+```pip install frhdtools```
+
+You should be good to go.
+
+### Method 2: Manual
+
 Download [frhdtools-0.0.1.tar.gz](https://github.com/maxmillion18/frhdtools/blob/master/dist/frhdtools-0.0.1.tar.gz?raw=true "frhdtools-0.0.1.tar.gz"). Next, run:
 
 `pip install /Downloads/frhdtools-0.0.1.tar.gz`
