@@ -50,4 +50,16 @@ In my case, the code was this:
 
 Don't worry what the code means just yet. First let's plug it into FRHD to see if it works.
 
-In the Track Editor, click "Import" at the top of the editor. Then paste in your generated code.
+In the Track Editor, click "Import" at the top of the editor:
+
+![Click Import at the top of the screen.](/images/example1/frhdimport.png)
+
+Then paste in your generated code at the window that pops up.
+
+After it loads your file, the track should look **exactly** like this:
+
+![The imported track.](/images/example1/frhdexample1.png)
+
+Wondering about the helmet? It's just swag.
+
+Congratulations! You've just finished you first line segment. It will get easier, I promise. :wink:
