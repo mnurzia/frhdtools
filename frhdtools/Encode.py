@@ -16,7 +16,7 @@ def encpupr(x,y,rot,pupcode):
 
 def b32e(numbera):
     #encode number. I struggled to find the right alphabet that frhd used for their encoding
-    """Encode number in freerider base36."""
+    """Encode number in freerider base32."""
 
     alphabet = '0123456789abcdefghijklmnopqrstuv' #DO NOT CHANGE
     number = abs(numbera)
