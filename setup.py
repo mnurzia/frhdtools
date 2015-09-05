@@ -21,5 +21,5 @@ setup(name="frhdtools",
         "Programming Language :: Python :: 3 :: Only"
     ],
     keywords="development freeriderhd freerider code track tracks",
-    packages=find_packages()
+    packages=find_packages(exclude=["images"])
 )
