@@ -63,3 +63,37 @@ After it loads your file, the track should look **exactly** like this:
 Wondering about the helmet? It's just swag.
 
 Congratulations! You've just finished you first line segment. It will get easier, I promise. :wink:
+
+### Example 2: Scenery Line
+
+Remember how I mentioned that there were different types of lines? Well here's what they are.
+
+In this example you'll make a **scenery line**. A scenery line is a line that the rider cannot ride on. It is purely just for scenery. Also, scenery lines are gray instead of black. In the last example we used a physics line. The rider can interact and ride on those. 
+
+It's really easy to make a physics line. Instead of using the code from last time:
+
+```python
+import frhdtools
+my_track = frhdtools.Track.Track()
+my_track.insLine(-40,50,100,50,'p')
+print(my_track.genCode())
+```
+
+We change the 'p' to an 's' in my_track.insLine:
+
+```python
+import frhdtools
+my_track = frhdtools.Track.Track()
+my_track.insLine(-40,50,100,50,'s')
+print(my_track.genCode())
+```
+
+(FYI: The code should be ```#-18 1i 34 1i,##```)
+
+Now, when you plug the code into FRHD, you will get this:
+
+![A scenery line.](images/example2/frhdexample2.png)
+
+Note: the rider will fall through the line as it does not have physics. This is normal.
+
+Now you have made a scenery line. Great!
