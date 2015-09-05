@@ -1,16 +1,16 @@
 Metadata-Version: 1.1
 Name: frhdtools
 Version: 1.0.0
-Summary: Free Rider HD Tools
+Summary: Library to work with Free Rider HD Tracks
 Home-page: https://github.com/maxmillion18/frhdtools
 Author: maxmillion18
-Author-email: icantpostmyemailhere@none.com
-License: GNU GPL v3
-Description: Work with, create, and manipulate Free Rider HD Tracks.
-Keywords: freeriderhd development
+Author-email: icantpostmyemailhere@gmail.com
+License: MIT License
+Description: Frhdtools is a library for working with Free Rider HD Tracks.
+Keywords: development freeriderhd freerider code track tracks
 Platform: UNKNOWN
-Classifier: Development Status :: 3 - Alpha
+Classifier: Development Status :: 2 - Pre-Alpha
 Classifier: Intended Audience :: Developers
-Classifier: Topic :: Utilities
-Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
-Classifier: Programming Language :: Python :: 2.7.8
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only

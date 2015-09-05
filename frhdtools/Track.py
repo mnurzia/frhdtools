@@ -3,15 +3,15 @@
 #http://www.github.com/maxmillion18
 #http://www.freeriderhd.com/u/MaxwellNurzia
 
-import Encode as En #import Encode.py (for encoding base32)
+from frhdtools import Encode as En #import Encode.py (for encoding base32)
 
 class Track():
     """Create a freerider track instance."""
-    
+
     def __init__(self):
         self.trackdata = '' #This will hold the track's mathematical parts
         self.tracklist = [[],[],[]] #3 lists: one for physics lines, one for scenery, and one for powerups
-        
+
     def insLine(self,x1,y1,x2,y2,typeofline):
         if typeofline == 'p': #physics
             self.tracklist[0] += [[x1,y1,x2,y2]]
@@ -40,7 +40,7 @@ class Track():
 
     def genCode(self):
         self.trackdatalist = [[],[],[]] #holds raw data to be joined into frhd text
-        
+
         for pline in self.tracklist[0]: #physics
             self.trackdatalist[0] += En.encline(pline[0],pline[1],pline[2],pline[3])
 
@@ -52,9 +52,9 @@ class Track():
                 self.trackdatalist[2] += En.encpup(pup[1],pup[2],pup[0])
             if len(pup) == 4: #if powerup does have rotation attribute
                 self.trackdatalist[2] += En.encpupr(pup[1],pup[2],pup[3],pup[0])
-        
+
         self.finalData = '' #this will be put into frhd
-        
+
         for typ in self.trackdatalist: #type of object
             for indiv in typ: #individual object
                 self.finalData += indiv[0]
@@ -62,3 +62,15 @@ class Track():
 
         return self.finalData
 
+if __name__ == '__main__':
+    my_track = Track()
+    my_track.insLine(6,6,6,6,'p')
+    my_track.insLine(6,6,6,6,'s')
+    my_track.insStar(6,6)
+    my_track.insCheck(6,6)
+    my_track.insSlowMo(6,6)
+    my_track.insBomb(6,6)
+    my_track.insGravity(6,6,6)
+    my_track.insBoost(6,6,6)
+    my_track.genCode()
+    print(my_track.genCode())

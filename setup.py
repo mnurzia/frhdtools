@@ -1,21 +1,25 @@
+#setup.py - Free Rider HD Installation script
+#by maxmillion18
+#http://www.github.com/maxmillion18
+#http://www.freeriderhd.com/u/MaxwellNurzia
+
 from setuptools import setup, find_packages
-setup(name='frhdtools',
-    version='1.0.0',
-    description='Free Rider HD Tools',
-    long_description='Work with, create, and manipulate Free Rider HD Tracks.',
-    url='https://github.com/maxmillion18/frhdtools',
-    author='maxmillion18',
-    author_email='icantpostmyemailhere@none.com',
-    license='GNU GPL v3',
+
+setup(name="frhdtools",
+    version="1.0.0",
+    description="Library to work with Free Rider HD Tracks",
+    long_description="Frhdtools is a library for working with Free Rider HD Tracks.",
+    url="https://github.com/maxmillion18/frhdtools",
+    author="maxmillion18",
+    author_email="icantpostmyemailhere@gmail.com",
+    license="MIT License",
     classifiers=[
-        'Development Status :: 3 - Alpha',
-        'Intended Audience :: Developers',
-        'Topic :: Utilities',
-        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
-        'Programming Language :: Python :: 2.7.8'
+        "Development Status :: 2 - Pre-Alpha",
+        "Intended Audience :: Developers",
+        "Topic :: Software Development :: Code Generators",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3 :: Only"
     ],
-    keywords='freeriderhd development',
-    packages=find_packages(),
-    package_data={},
-    data_files=[])
-    
+    keywords="development freeriderhd freerider code track tracks",
+    packages=find_packages()
+)
