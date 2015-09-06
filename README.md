@@ -3,7 +3,7 @@ frhdtools
 
 A Python library for working with Free Rider HD Tracks.
 
-![pip | stable] ![type | sdist] ![version | 0.0.1] ![license | MIT]
+![pip | stable] ![type | sdist] ![license | MIT]
 
 Introduction
 ------------
@@ -18,20 +18,11 @@ clipboard. This library (as of now) allows you to generate that code.
 Install
 -------
 
-### Method 1: pip
+Fire up a terminal and run:
 
-Open up a terminal and type:\
 `pip install frhdtools`
 
 You should be good to go.
-
-### Method 2: Manual
-
-Download [frhdtools-0.0.2.tar.gz]. Next, run:
-
-`pip install /Downloads/frhdtools-0.0.2.tar.gz`
-
-Note: replace `/Downloads` with wherever you put it.
 
 Usage
 -----
@@ -135,11 +126,8 @@ Now you have made a scenery line. Great!
 
   [pip | stable]: https://img.shields.io/badge/pip-stable-green.png
   [type | sdist]: https://img.shields.io/badge/type-sdist-blue.png
-  [version | 0.0.1]: https://img.shields.io/badge/version-0.0.1-orange.png
   [license | MIT]: https://img.shields.io/badge/license-MIT-blue.png
   [Go try it out!]: https://www.freeriderhd.com "Free Rider HD"
-  [frhdtools-0.0.2.tar.gz]: https://github.com/maxmillion18/frhdtools/blob/master/dist/frhdtools-0.0.2.tar.gz?raw=true
-    "frhdtools-0.0.2.tar.gz"
   [Click Import at the top of the screen.]: /images/example1/frhdimport.png
   [The imported track.]: /images/example1/frhdexample1.png
   [A scenery line.]: images/example2/frhdexample2.png
