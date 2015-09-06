@@ -144,7 +144,7 @@ To start, let's take our code form the first example:
     my_track.insLine(-40,50,100,50,'p')
     print(my_track.genCode())
 
-and add my_track.insBoost(90,-10,270)
+and add my_track.insBoost(90,-10,90)
 
 .. code:: python
 
