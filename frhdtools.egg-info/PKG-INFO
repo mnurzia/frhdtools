@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: frhdtools
-Version: 0.0.3.4b
+Version: 0.0.3.5
 Summary: Library to work with Free Rider HD Tracks
 Home-page: https://github.com/maxmillion18/frhdtools
 Author: maxmillion18
@@ -102,10 +102,11 @@ Description: frhdtools
         Remember how I mentioned that there were different types of lines? Well
         here’s what they are.
         
+        In the last example we used a physics line. The rider can interact and ride on those.
+        
         In this example you’ll make a **scenery line**. A scenery line is a line
         that the rider cannot ride on. It is purely just for scenery. Also,
-        scenery lines are gray instead of black. In the last example we used a
-        physics line. The rider can interact and ride on those.
+        scenery lines are gray instead of black. 
         
         It’s really easy to make a physics line. Instead of using the code from
         last time:
@@ -171,7 +172,12 @@ Description: frhdtools
         .. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example3/frhdexample3.png
            :alt: A boost powerup.
         
-        Great! You've done your first powerup.
+        Great! You've inserted your first powerup into a track!
+        
+        Example 4: More powerups
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        In this example, you'll 
         
         
         
