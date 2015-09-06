@@ -3,7 +3,7 @@ frhdtools
 
 A Python library for working with Free Rider HD Tracks.
 
-|pip \| stable| |type \| sdist| |license \| MIT|
+|pip stable| |type sdist| |license MIT|
 
 Introduction
 ------------
@@ -137,6 +137,6 @@ Now you have made a scenery line. Great!
 
 .. _Go try it out!: https://www.freeriderhd.com
 
-.. |pip \| stable| image:: https://img.shields.io/badge/pip-stable-green.png
-.. |type \| sdist| image:: https://img.shields.io/badge/type-sdist-blue.png
-.. |license \| MIT| image:: https://img.shields.io/badge/license-MIT-blue.png
+.. |pip stable| image:: https://img.shields.io/badge/pip-stable-green.png
+.. |type sdist| image:: https://img.shields.io/badge/type-sdist-blue.png
+.. |license MIT| image:: https://img.shields.io/badge/license-MIT-blue.png
