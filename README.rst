@@ -164,6 +164,15 @@ Plug that into FRHD, and you're left with this:
 .. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example3/frhdexample3.png
    :alt: A boost powerup.
 
+Great! You've inserted your first powerup into a track!
+
+Example 4: More powerups
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+In this example, you'll 
+
+
+
 .. _Go try it out!: https://www.freeriderhd.com
 
 .. |pip stable| image:: https://img.shields.io/badge/pip-stable-green.png
