@@ -94,6 +94,7 @@ Example 2: Scenery Line
 Remember how I mentioned that there were different types of lines? Well
 here’s what they are.
 
+In the last example we used a physics line. The rider can interact and ride on those.
 
 In this example you’ll make a **scenery line**. A scenery line is a line
 that the rider cannot ride on. It is purely just for scenery. Also,
