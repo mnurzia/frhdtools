@@ -9,7 +9,7 @@ versionFile = "VERSION"
 setup(name="frhdtools",
     version=open(versionFile).read(),
     description="Library to work with Free Rider HD Tracks",
-    long_description="Frhdtools is a library for working with Free Rider HD Tracks.",
+    long_description=open("README.rst").read(),
     url="https://github.com/maxmillion18/frhdtools",
     author="maxmillion18",
     author_email="icantpostmyemailhere@gmail.com",
@@ -23,5 +23,4 @@ setup(name="frhdtools",
     ],
     keywords="development freeriderhd freerider code track tracks",
     packages=find_packages(exclude=["images"]),
-    base_name="frhdtools-stable"
 )

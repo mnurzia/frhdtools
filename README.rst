@@ -72,10 +72,9 @@ to see if it works.
 
 In the Track Editor, click “Import” at the top of the editor:
 
-.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example1/frhdexample1.png
+.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example1/frhdimport.png
    :alt: Click Import at the top of the screen.
 
-   Click Import at the top of the screen.
 
 Then paste in your generated code at the window that pops up.
 
@@ -83,8 +82,6 @@ After it loads your file, the track should look **exactly** like this:
 
 .. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master//images/example1/frhdexample1.png
    :alt: The imported track.
-
-   The imported track.
 
 Wondering about the helmet? It’s just swag.
 
@@ -127,8 +124,6 @@ Now, when you plug the code into FRHD, you will get this:
 
 .. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example2/frhdexample2.png
    :alt: A scenery line.
-
-   A scenery line.
 
 Note: the rider will fall through the line as it does not have physics.
 This is normal.
