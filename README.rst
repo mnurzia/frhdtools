@@ -100,7 +100,7 @@ In this example you’ll make a **scenery line**. A scenery line is a line
 that the rider cannot ride on. It is purely just for scenery. Also,
 scenery lines are gray instead of black. 
 
-It’s really easy to make a physics line. Instead of using the code from
+It’s really easy to make a scenery line. Instead of using the code from
 last time:
 
 .. code:: python
@@ -136,7 +136,7 @@ Example 3: Boost
 
 In this example, you will learn how to make a boost powerup.
 
-To start, let's take our code form the first example:
+To start, let's take our code from the first example:
 
 .. code:: python
 
@@ -164,17 +164,8 @@ Plug that into FRHD, and you're left with this:
 .. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example3/frhdexample3.png
    :alt: A boost powerup.
 
-Great! You've inserted your first powerup into a track!
-
-Example 4: More powerups
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-In this example, you'll 
-
-
-
 .. _Go try it out!: https://www.freeriderhd.com
 
-.. |pip stable| image:: https://img.shields.io/badge/pip-stable-green.png
+.. |pip stable| image:: https://img.shields.io/badge/pip-stable-green.svg
 .. |type sdist| image:: https://img.shields.io/badge/type-sdist-blue.png
 .. |license MIT| image:: https://img.shields.io/badge/license-MIT-blue.png
