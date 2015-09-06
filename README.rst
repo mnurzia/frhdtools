@@ -167,5 +167,5 @@ Plug that into FRHD, and you're left with this:
 .. _Go try it out!: https://www.freeriderhd.com
 
 .. |pip stable| image:: https://img.shields.io/badge/pip-stable-green.svg
-.. |type sdist| image:: https://img.shields.io/badge/type-sdist-blue.png
-.. |license MIT| image:: https://img.shields.io/badge/license-MIT-blue.png
+.. |type sdist| image:: https://img.shields.io/badge/type-sdist-blue.svg
+.. |license MIT| image:: https://img.shields.io/badge/license-MIT-blue.svg
