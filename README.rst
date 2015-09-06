@@ -130,6 +130,39 @@ This is normal.
 
 Now you have made a scenery line. Great!
 
+Example 3: Boost
+~~~~~~~~~~~~~~~~
+
+In this example, you will learn how to make a boost powerup.
+
+To start, let's take our code form the first example:
+
+.. code:: python
+
+    import frhdtools
+    my_track = frhdtools.Track.Track()
+    my_track.insLine(-40,50,100,50,'p')
+    print(my_track.genCode())
+
+and add my_track.insBoost(90,-10,270)
+
+.. code:: python
+
+    import frhdtools
+    my_track = frhdtools.Track.Track()
+    my_track.insLine(-40,50,100,50,'p')
+    my_track.insBoost(90,10,90)
+    print(my_track.genCode())
+
+This will spawn a boost powerup at (90,10). It will be rotated 90 degrees.
+
+** By the way, the code should look like this: ``-18 1i 34 1i,##B 2q a 2q,#``
+
+Plug that into FRHD, and you're left with this:
+
+.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example3/frhdexample3.png
+   :alt: A boost powerup.
+
 .. _Go try it out!: https://www.freeriderhd.com
 
 .. |pip stable| image:: https://img.shields.io/badge/pip-stable-green.png
