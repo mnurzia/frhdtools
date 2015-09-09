@@ -98,7 +98,7 @@ In the last example we used a physics line. The rider can interact and ride on t
 
 In this example you’ll make a **scenery line**. A scenery line is a line
 that the rider cannot ride on. It is purely just for scenery. Also,
-scenery lines are gray instead of black. 
+scenery lines are gray instead of black.
 
 It’s really easy to make a scenery line. Instead of using the code from
 last time:
@@ -161,8 +161,28 @@ This will spawn a boost powerup at (90,10). It will be rotated 90 degrees.
 
 Plug that into FRHD, and you're left with this:
 
-.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example3/frhdexample3.png
+.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example3/boost.gif
    :alt: A boost powerup.
+
+Example 4: Bomb
+~~~~~~~~~~~~~~~
+
+In this example, you'll learn how to spawn a bomb powerup. Bombs explode when you touch them.
+
+So, to get started we'll take our code from our first example and add my_track.insBomb():
+
+.. code:: python
+
+    import frhdtools
+    my_track = frhdtools.Track.Track()
+    my_track.insLine(-40,50,100,50,'p')
+    my_track.insBomb(90,10)
+    print(my_track.genCode())
+
+That code makes a bomb at (90,10), which are the same coordinates from the last example.
+
+Go ahead and put that into FRHD:
+
 
 .. _Go try it out!: https://www.freeriderhd.com
 

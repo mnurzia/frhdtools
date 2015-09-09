@@ -3,6 +3,7 @@ setup.cfg
 setup.py
 frhdtools/Decode.py
 frhdtools/Encode.py
+frhdtools/Loader.py
 frhdtools/Track.py
 frhdtools/__init__.py
 frhdtools.egg-info/PKG-INFO
