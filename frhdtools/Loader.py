@@ -16,5 +16,4 @@ def loadTrack(track):
 
 if __name__ == "__main__":
     tdata = open('tests/test.ft').read()
-    print(tdata)
     loadTrack(tdata)

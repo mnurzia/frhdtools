@@ -186,6 +186,30 @@ Go ahead and put that into FRHD:
 .. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example4/bomb.gif
    :alt: A Bomb.
 
+Example 5: Gravity
+~~~~~~~~~~~~~~~~~~
+
+In this example, you'll put a gravity powerup into a track.
+
+Gravity powerups are pretty cool because they can switch gravity. Wow.
+
+You know the drill. Let's take the code from Example 1 and this time add my_track.insGravity():
+
+.. code:: python
+
+    import frhdtools
+    my_track = frhdtools.Track.Track()
+    my_track.insLine(-40,50,100,50,'p')
+    my_track.insGravity(90,10,90)
+    print(my_track.genCode())
+
+Now, when you put that into FRHD, you'll see something cool:
+
+.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example5/gravity.gif
+   :alt: Gravity!
+
+Honestly, I think that this is one of the coolest features in FRHD; I really appriciate that the developers took time to put it there.
+
 .. _Go try it out!: https://www.freeriderhd.com
 
 .. |pip stable| image:: https://img.shields.io/badge/pip-stable-green.svg
