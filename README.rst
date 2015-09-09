@@ -182,7 +182,8 @@ So, to get started we'll take our code from our first example and add my_track.i
 That code makes a bomb at (90,10), which are the same coordinates from the last example.
 
 Go ahead and put that into FRHD:
-
+.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example4/bomb.gif
+   :alt: A Bomb.
 
 .. _Go try it out!: https://www.freeriderhd.com
 
