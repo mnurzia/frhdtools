@@ -27,8 +27,10 @@ You should be good to go.
 Usage
 -----
 
-Example 1: Straight Line
+Lines
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Example 1: Physics Line**
 
 When you start, you’ll want to import frhdtools:
 
@@ -88,8 +90,7 @@ Wondering about the helmet? It’s just swag.
 Congratulations! You’ve just finished you first line segment. It will
 get easier, I promise. :wink:
 
-Example 2: Scenery Line
-~~~~~~~~~~~~~~~~~~~~~~~
+**Example 2: Scenery Line**
 
 Remember how I mentioned that there were different types of lines? Well
 here’s what they are.
@@ -131,8 +132,9 @@ This is normal.
 
 Now you have made a scenery line. Great!
 
-Example 3: Boost
+Powerups
 ~~~~~~~~~~~~~~~~
+**Example 1: Boost**
 
 In this example, you will learn how to make a boost powerup.
 
@@ -164,8 +166,7 @@ Plug that into FRHD, and you're left with this:
 .. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example3/boost.gif
    :alt: A boost powerup.
 
-Example 4: Bomb
-~~~~~~~~~~~~~~~
+**Example 2: Bomb**
 
 In this example, you'll learn how to spawn a bomb powerup. Bombs explode when you touch them.
 
@@ -186,8 +187,7 @@ Go ahead and put that into FRHD:
 .. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example4/bomb.gif
    :alt: A Bomb.
 
-Example 5: Gravity
-~~~~~~~~~~~~~~~~~~
+**Example 3: Gravity**
 
 In this example, you'll put a gravity powerup into a track.
 
