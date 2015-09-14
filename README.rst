@@ -208,7 +208,7 @@ Now, when you put that into FRHD, you'll see something cool:
 .. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example5/gravity.gif
    :alt: Gravity!
 
-Honestly, I think that this is one of the coolest features in FRHD; I really appriciate that the developers took time to put it there.
+Honestly, I think that this is one of the coolest features in FRHD; I really apprieciate that the developers took time to put it there.
 
 .. _Go try it out!: https://www.freeriderhd.com
 
