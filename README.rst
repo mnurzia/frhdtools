@@ -210,6 +210,25 @@ Now, when you put that into FRHD, you'll see something cool:
 
 Honestly, I think that this is one of the coolest features in FRHD; I really apprieciate that the developers took time to put it there.
 
+**Example 4: Star**
+
+Stars are items in the track that must be collected in order to complete the track.
+
+Stars are added with my_track.insStar(x,y)
+
+Stars look like this:
+
+.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/powerups/example4/star.gif
+   :alt: Star!
+   
+As you can see, stars have no physics and are collected immediately.
+
+**Example 5: Slow Motion**
+
+Slow motion is a cool feature that allows you to, in a nutshell, make it seem like your rider is riding in slow motion.
+
+Slow motion starts from the time your rider hits it to the time your rider lands on another platform.
+   
 .. _Go try it out!: https://www.freeriderhd.com
 
 .. |pip stable| image:: https://img.shields.io/badge/pip-stable-green.svg
