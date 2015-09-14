@@ -74,7 +74,7 @@ to see if it works.
 
 In the Track Editor, click “Import” at the top of the editor:
 
-.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example1/frhdimport.png
+.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/lines/example1/frhdimport.png
    :alt: Click Import at the top of the screen.
 
 
@@ -82,7 +82,7 @@ Then paste in your generated code at the window that pops up.
 
 After it loads your file, the track should look **exactly** like this:
 
-.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master//images/example1/frhdexample1.png
+.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/lines/example1/frhdexample1.png
    :alt: The imported track.
 
 Wondering about the helmet? It’s just swag.
@@ -124,7 +124,7 @@ We change the ‘p’ to an ‘s’ in my\_track.insLine:
 
 Now, when you plug the code into FRHD, you will get this:
 
-.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example2/frhdexample2.png
+.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/lines/example2/frhdexample2.png
    :alt: A scenery line.
 
 Note: the rider will fall through the line as it does not have physics.
@@ -163,7 +163,7 @@ This will spawn a boost powerup at (90,10). It will be rotated 90 degrees.
 
 Plug that into FRHD, and you're left with this:
 
-.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example3/boost.gif
+.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/powerups/example1/boost.gif
    :alt: A boost powerup.
 
 **Example 2: Bomb**
@@ -184,7 +184,7 @@ That code makes a bomb at (90,10), which are the same coordinates from the last 
 
 Go ahead and put that into FRHD:
 
-.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example4/bomb.gif
+.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/powerups/example2/bomb.gif
    :alt: A Bomb.
 
 **Example 3: Gravity**
@@ -205,7 +205,7 @@ You know the drill. Let's take the code from Example 1 and this time add my_trac
 
 Now, when you put that into FRHD, you'll see something cool:
 
-.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/example5/gravity.gif
+.. figure:: https://raw.githubusercontent.com/maxmillion18/frhdtools/master/images/powerups/example3/gravity.gif
    :alt: Gravity!
 
 Honestly, I think that this is one of the coolest features in FRHD; I really apprieciate that the developers took time to put it there.
